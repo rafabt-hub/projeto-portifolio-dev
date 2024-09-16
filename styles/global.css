@@ -16,4 +16,21 @@
   --gray400: #878EA1;
   --gray500: #C0C4CE;
   --gray600: #E2E4E9;
+
+  --font-family: 'Asap', 'Inconsolota', 'Maven Pro', sans-serif;
+  --h1: 700 56px/120% var(--font-family);
+  --h2: 700 24px/120% var(--font-family);
+  --h3: 700 16px/120% var(--font-family);
+  --subtitle: 400 20px/140% var(--font-family);
+  --text-md: 400 16px/140% var(--font-family);
+  --text-sm: 400 14px/140% var(--font-family);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: var(--blue)
 }
