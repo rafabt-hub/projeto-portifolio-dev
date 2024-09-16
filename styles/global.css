@@ -1,1 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+:root {
+  --red:#E3646E;
+  --purple: #BB72E9;
+  --blue: #3996DB;
+  --green: #82BC4F;
+  --yellow: #EABD5F;
+  --gray100: #0D0E11;
+  --gray200: #16181D;
+  --gray300: #292C34;
+  --gray400: #878EA1;
+  --gray500: #C0C4CE;
+  --gray600: #E2E4E9;
+}
