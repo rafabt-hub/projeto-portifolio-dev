@@ -34,3 +34,7 @@ a {
 a:hover {
   color: var(--blue)
 }
+
+img {
+  max-width: 100%;
+}
