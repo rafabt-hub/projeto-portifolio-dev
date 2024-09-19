@@ -4,28 +4,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --red:#E3646E;
-  --purple: #BB72E9;
-  --blue: #3996DB;
-  --green: #82BC4F;
-  --yellow: #EABD5F;
-  --gray100: #0D0E11;
-  --gray200: #16181D;
-  --gray300: #292C34;
-  --gray400: #878EA1;
-  --gray500: #C0C4CE;
-  --gray600: #E2E4E9;
-
-  --font-family: 'Asap', 'Inconsolota', 'Maven Pro', sans-serif;
-  --h1: 700 56px/120% var(--font-family);
-  --h2: 700 24px/120% var(--font-family);
-  --h3: 700 16px/120% var(--font-family);
-  --subtitle: 400 20px/140% var(--font-family);
-  --text-md: 400 16px/140% var(--font-family);
-  --text-sm: 400 14px/140% var(--font-family);
-}
-
 a {
   text-decoration: none;
   color: inherit;
@@ -35,6 +13,102 @@ a:hover {
   color: var(--blue)
 }
 
-img {
-  max-width: 100%;
+h1, h2, h3 {
+  font: inherit;
+}
+
+header {
+  background-image: url(../assets/images/Background_Intro.png);
+  font: var(--font-family);
+  color: #E2E4E9;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+h1 {
+  font-family: 'Asap', 'Inconsolota', 'Maven Pro', sans-serif;
+}
+h3 {
+  font-family: "Inconsolata", monospace;
+}
+p, span {
+  font-family: "Maven Pro", sans-serif;
+}
+h2 {
+  font-family: 'Asap', 'Inconsolota', 'Maven Pro', sans-serif;
+}
+h3.mensagetopheader {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+  color: #C0C4CE;
+  padding-top: 8%;
+}
+h1.title {
+  font-size: 56px;
+  line-height: 67.2px;
+  text-align: center;
+  font-weight: 700;
+  padding: 20px;
+}
+p.text {
+  color: #878EA1;
+  font-size: 14px;
+  line-height: 19.6px;
+  text-align: center;
+  font-weight: 400;
+}
+.grid-flow-col {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 12%;
+}
+img.iconsize {
+  width: 24px;
+  height: 24px;
+}
+.boxicon {
+  background: #292C34;
+  padding: 8px 16px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.grid {
+  max-width: 680px;
+  display: block;
+  margin: 0 auto;
+  padding: 7% 0;
+  text-align: center;
+}
+main.grid-flow-col.second {
+  background: #16181D;
+}
+section#projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0;
+  max-width: 1040px;
+  justify-content: center;
+  gap: 24px;
+}
+main.lineprojects {
+  background: #16181D;
+  text-align: center;
+}
+img.iconpointer {
+  padding-bottom: 5%;
+}
+.backgroundbox {
+  background: #292C34;
+  padding: 1em;
+  text-align: left;
+  border-radius: 12px;
 }
