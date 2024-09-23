@@ -101,11 +101,10 @@ main.grid-flow-col.second {
 section#projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding: 0;
+  padding-bottom: 144px;
   max-width: 1040px;
   justify-content: center;
   gap: 24px;
-
 }
 
 main.lineprojects {
@@ -163,10 +162,6 @@ p.jobstext {
   padding: 8px;
 }
 
-section#services {
-  background-color: #0D0E11;
-}
-
 h3.servicestitle {
   font-size: 16px;
   line-height: 120%;
@@ -187,16 +182,80 @@ p.servicestext {
   grid-template-columns: 1fr 1fr 1fr;
   padding: 20px;
   gap: 24px;
-  background: #0D0E11;
   max-width: 888px;
+  justify-content: center;
   align-items: center;
 }
 
 .servicesbox {
+  text-align: left;
   width: 280px;
   height: 155px;
   border-width: 1px;
   border-style: solid;
   border-color: #878EA1;
   border-radius: 12px;
+  align-items: center;
+}
+
+.servicessection {
+  background-color: #0D0E11;
+  background-size: cover;
+}
+
+h3.titlecontact {
+  font-size: 20px;
+  line-height: 120%;
+  font-weight: 400;
+  color: #bb72e9;
+  padding: 8px;
+}
+
+h1.subtitlecontact {
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 700;
+  color: #E2E4E9;
+  padding: 8px;
+}
+
+p.contact-text {
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 400;
+  color: #C0C4CE;
+  padding: 8px;
+}
+
+.jobsbox {
+  width: 400px;
+  height: 68px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 12px;  
+  background: #292C34;
+  img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.grid2 {
+  display: grid;
+  gap: 16px;
+  background-image: url(../assets/images/Background_Contacts.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.link-text {
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 400;
+  color: #C0C4CE;
 }
