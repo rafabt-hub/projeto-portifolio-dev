@@ -125,7 +125,6 @@ h3.titleprojects {
   font-weight: 400;
   text-align: center;
   color: #E3646E;
-  padding-top:  8%;
 }
 
 h1.subtitleprojetcs {
@@ -155,7 +154,7 @@ p.jobstext {
 
 h3.servicestitle {
   font-size: 16px;
-  line-height: 120%;
+  line-height: 180%;
   font-weight: 700;
   color: #E2E4E9;
 }
@@ -165,7 +164,6 @@ p.servicestext {
   line-height: 140%;
   font-weight: 400;
   color: #C0C4Ce;
-  padding: 8px;
 }
 
 .grid-flow-col3 {
@@ -176,6 +174,7 @@ p.servicestext {
   max-width: 888px;
   justify-content: center;
   align-items: center;
+  margin: auto;
 }
 
 .servicesbox {
@@ -187,11 +186,13 @@ p.servicestext {
   border-color: #878EA1;
   border-radius: 12px;
   align-items: center;
+    padding: 1em;
 }
 
 .servicessection {
   background-color: #0D0E11;
   background-size: cover;
+  padding: 5em;
 }
 
 h3.titlecontact {
@@ -224,11 +225,12 @@ p.contact-text {
   border-radius: 8px;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
   gap: 12px;  
   background: #292C34;
+  margin: 1em auto;
   img {
     width: 28px;
     height: 28px;
@@ -249,4 +251,37 @@ p.contact-text {
   line-height: 140%;
   font-weight: 400;
   color: #C0C4CE;
+}
+p.iconsbuttonsocial {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #C0C4CE;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
+/* Css only for mobile  */
+@media only screen and (max-width: 767px) {
+
+}
+
+
+/* Css only for tablet  */
+@media only screen and (min-width: 768px) and (max-width: 980px) {
+
+}
+
+/* Css only for ipad and notbooks  */
+@media only screen and (min-width: 980px) and (max-width: 1150px) {
+
+  section#projects {
+    grid-template-columns: 1fr 1fr;
+  }
+
 }
